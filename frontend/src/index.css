@@ -1,0 +1,98 @@
+/* src/index.css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
+}
+
+.container { 
+  max-width: 800px; 
+  margin: 2rem auto; 
+  padding: 1rem;
+  text-align: center; 
+}
+
+h1 {
+  color: #333;
+}
+
+form { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 1.5rem; 
+  align-items: center; 
+  background: #ffffff; 
+  padding: 2rem; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"] {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+button { 
+  padding: 0.8rem 1.5rem; 
+  font-size: 1rem;
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled { 
+  background-color: #ccc; 
+  cursor: not-allowed;
+}
+
+.results { 
+  text-align: left; 
+  margin-top: 2rem; 
+  background: #ffffff; 
+  padding: 1.5rem; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 { 
+  border-bottom: 2px solid #eee; 
+  padding-bottom: 0.5rem; 
+}
+
+pre { 
+  white-space: pre-wrap; 
+  word-wrap: break-word; 
+  font-family: monospace; 
+  background: #f8f9fa; 
+  padding: 1rem; 
+  border-radius: 5px; 
+  line-height: 1.6;
+}
+
+.error { 
+  color: red; 
+  margin-top: 1rem; 
+  background-color: #ffebee;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.loader { 
+  margin-top: 1rem; 
+  font-style: italic; 
+  color: #555; 
+}
