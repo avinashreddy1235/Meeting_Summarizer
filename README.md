@@ -18,3 +18,5 @@ Quick start
 
 Notes
 - The repository was cleaned to remove local virtual environments and other large artifacts before publishing to GitHub.
+
+video:- https://drive.google.com/file/d/1CjGVxgx1xKkXxM1d2qaHUOe5Scm_HXwh/view?usp=drivesdk
